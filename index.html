@@ -1,192 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, height=1000, user-scalable=no" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="vendor/bootstrap/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="vendor/webfont/stylesheet.css"
-      type="text/css"
-      charset="utf-8"
-    />
-    <link
-      rel="stylesheet"
-      href="css/newStyle.css"
-      type="text/css"
-      charset="utf-8"
-    />
-    <title>Apostas vencendoras</title>
-  </head>
-  <body>
-    <section id="home" class="u-home--section">
-      <div class="u-bg__home-section--light">
-        <div class="o-layout o-layout--offset-top o-layout--offset-bottom">
-          <!--left col-->
-          <div class="u-col-12@s u-col-12@m u-col-7@l">
-            <style type="text/css">
-              .home--titulo .c-heading__description p {
-                font-size: inherit !important;
-                line-height: inherit !important;
-              }
-            </style>
-            <header>
-              <h1 class="c-heading c-heading--home home-titulo">
-                <span class="c-heading__title">Apostas em Futebol</span>
-                <span class="c-heading__description">
-                  <p class="mt10 mb40">
-                    Tenha acesso as melhores dicas!
-                  </p>
-                  <p class="mt10 mb40">
-                    Temos uma equipe de apostadores profissionais, Traders e
-                    Tipster com anos de experiência!
-                  </p>
-                  <p class="mt10 mb40">
-                    Ganhe tempo e dinheiro! Venha lucrar com a gente!
-                  </p>
-                  <a class="c-btn c-btn--success c-btn--large c-footer__btn">
-                    <span class="c-btn__text">Como funciona</span></a
-                  >
-                </span>
-              </h1>
-            </header>
-          </div>
-          <!--right col-->
-          <div class="u-col-12@s u-col-12@m u-col-4@l u-pull-1@l u-hide@s u-hide@m u-show@l">
-            <img src="img/results.png" style="width: 80%;" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <div class="c-anchor">
-        <a class="c-anchor__trigger" data-anchor="palpites" href="#palpites">
-            <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
-        </a>
-      </div>
-    <section  id="palpites" class="u-palpite--section">
-        <div class="u-bg__palpites-section--light">
-            <div class="o-layout o-layout--offset-top o-layout--offset-bottom">
-              <!--left col-->
-              <div class="u-col-12@s u-col-12@m u-col-6@l">
-                <style type="text/css">
-                  .home--titulo .c-heading__description p {
-                    font-size: inherit !important;
-                    line-height: inherit !important;
-                  }
-                </style>
-                <header>
-                  <h1 class="c-heading c-heading--home home-titulo">
-                    <span class="c-heading__title">Palpites certeiros</span>
-                    <span class="c-heading__description">
-                      <p class="mt10 mb40">
-                          Os nossos profissionais estudam, analisam e escolhem as melhores entradas em apostas!
-                      </p>
-                      <p class="mt10 mb40">
-                          Receba resumidamente cada uma destas entradas lucrativas!
-                      </p>
-                      <a class="c-btn c-btn--success c-btn--large c-footer__btn">
-                        <span class="c-btn__text">Eu quero!</span></a
-                      >
-                    </span>
-                  </h1>
-                </header>
-              </div>
-              <!--right col-->
-              <div
-                class="u-col-12@s u-col-12@m u-col-5@l u-pull-1@l"
-              >
-              <header>
-                  <h1 class="c-heading c-heading--home home-titulo">
-                    <span class="c-heading__title">TELA NUTROR</span>
-                    <span class="c-heading__description">
-                      <p class="mt10 mb40">
-                          Os nossos profissionais estudam, analisam e escolhem as melhores entradas em apostas!
-                      </p>
-                      <p class="mt10 mb40">
-                          Receba resumidamente cada uma destas entradas lucrativas!
-                      </p>
-                      <a class="c-btn c-btn--success c-btn--large c-footer__btn">
-                        <span class="c-btn__text">Eu quero!</span></a
-                      >
-                    </span>
-                  </h1>
-                </header>
-              </div>
-            </div>
-    </section>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, height=1000, user-scalable=no" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/fonts/chainlink/stylesheet.css" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="/assets/stylesheets/application.css" type="text/css" charset="utf-8" />
+  <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+  <title>Apostas vencendoras</title>
+</head>
 
-    <section  id="banner" class="u-bg__home-section--light">
-        <div class="o-layout" style="text-align: center;">
-        <!--left col-->
-        <div class="u-col-12@s u-col-12@m u-col-12@l">
-          <style type="text/css">
-            .home--titulo .c-heading__description p {
-              font-size: inherit !important;
-              line-height: inherit !important;
-            }
-          </style>
+<body>
+  <section id="home" class="u-home--section">
+    <div class="u-bg__home-section--light">
+      <div class="o-layout o-layout--offset-top o-layout--offset-bottom">
+        <div class="u-col-12@s u-col-12@m u-col-7@l">
           <header>
-            <h1 class="c-heading c-heading--home home-titulo" style="padding: 50px 0 0 35px">
-              <span class="c-heading__title">Chega de perder tempo analisando jogos, errar nas análises é perder dinheiro</span>
+            <h1 class="c-heading c-heading--home home-titulo">
+              <span class="c-heading__title">Apostas em Futebol</span>
+              <span class="c-heading__description">
+                <p class="mt10 mb40">
+                  Tenha acesso as melhores dicas!
+                </p>
+                <p class="mt10 mb40">
+                  Temos uma equipe de apostadores profissionais, Traders e
+                  Tipster com anos de experiência!
+                </p>
+                <p class="mt10 mb40">
+                  Ganhe tempo e dinheiro! Venha lucrar com a gente!
+                </p>
+                <a class="c-btn c-btn--success c-btn--large c-footer__btn">
+                  <span class="c-btn__text">Como funciona</span></a>
+              </span>
             </h1>
           </header>
         </div>
-    </section>
+        <div class="u-col-12@s u-col-12@m u-col-4@l u-pull-1@l u-hide@s u-hide@m u-show@l">
+          <img src="/assets/images/results.png" style="width: 80%;" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="c-anchor">
+    <a class="c-anchor__trigger" data-anchor="palpites" href="#palpites">
+      <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+    </a>
+  </div>
+  <section id="palpites" class="u-palpite--section">
+    <div class="u-bg__palpites-section--light">
+      <div class="o-layout o-layout--offset-top o-layout--offset-bottom">
+        <div class="u-col-12@s u-col-12@m u-col-6@l">
+          <header>
+            <h1 class="c-heading c-heading--home home-titulo">
+              <span class="c-heading__title">Palpites certeiros</span>
+              <span class="c-heading__description">
+                <p class="mt10 mb40">
+                  Os nossos profissionais estudam, analisam e escolhem as melhores entradas em apostas!
+                </p>
+                <p class="mt10 mb40">
+                  Receba resumidamente cada uma destas entradas lucrativas!
+                </p>
+                <a class="c-btn c-btn--success c-btn--large c-footer__btn">
+                  <span class="c-btn__text">Eu quero!</span></a>
+              </span>
+            </h1>
+          </header>
+        </div>
+        <div class="u-col-12@s u-col-12@m u-col-5@l u-pull-1@l">
+          <header>
+            <h1 class="c-heading c-heading--home home-titulo">
+              <span class="c-heading__title">TELA NUTROR</span>
+              <span class="c-heading__description">
+                <p class="mt10 mb40">
+                  Os nossos profissionais estudam, analisam e escolhem as melhores entradas em apostas!
+                </p>
+                <p class="mt10 mb40">
+                  Receba resumidamente cada uma destas entradas lucrativas!
+                </p>
+                <a class="c-btn c-btn--success c-btn--large c-footer__btn">
+                  <span class="c-btn__text">Eu quero!</span></a>
+              </span>
+            </h1>
+          </header>
+        </div>
+      </div>
+  </section>
 
-    <section  id="banner" class="u-bg__palpites-section--light">
-        <div class="o-layout" style="text-align: center;">
-          <!--left col-->
-          <div class="u-col-12@s u-col-12@m u-col-12@l">
-            <style type="text/css">
-              .home--titulo .c-heading__description p {
-                font-size: inherit !important;
-                line-height: inherit !important;
-              }
-            </style>
-            <header>
-              <h1 class="c-heading c-heading--home home-titulo mt40">
-                <span class="c-heading__title">Venha conhecer nosso projeto</span>
-                <span class="c-heading__description">
-                      <p class="mt10 mb20">
-                          Deixe a tarefa de analisar jogos com os nossos profissionais!</p>
-                      <p class="mt10 mb20">
-                          Foque em suas estratégias!
-                      </p>
-                      <p class="mt10 mb20">
-                          100% Punter (100% Pré-Jogo)
-                      </p>
-                      
-                      <a class="c-btn c-btn--success c-btn--large c-footer__btn mt40">
-                        <span class="c-btn__text">Eu quero!</span></a
-                      >
-                    </span>
-              </h1>
-            </header>
-          </div>
-      </section>
+  <section id="banner" class="u-bg__home-section--light">
+    <div class="o-layout" style="text-align: center;">
+      <div class="u-col-12@s u-col-12@m u-col-12@l">
+        <header>
+          <h1 class="c-heading c-heading--home home-titulo" style="padding: 50px 0 0 35px">
+            <span class="c-heading__title">Chega de perder tempo analisando jogos, errar nas análises é perder
+              dinheiro</span>
+          </h1>
+        </header>
+      </div>
+  </section>
 
-      <section  id="historico">
-          <div class="o-layout" style="text-align: center;">
-            <!--left col-->
-            <div class="u-col-12@s u-col-12@m u-col-12@l">
-              <style type="text/css">
-                .home--titulo .c-heading__description p {
-                  font-size: inherit !important;
-                  line-height: inherit !important;
-                }
-              </style>
-              <header>
-                <h1 class="c-heading c-heading--home home-titulo mt40">
-                  <span class="c-heading__title black">Histórico dos meses</span>
-                  <!-- <span class="c-heading__description">
+  <section id="banner" class="u-bg__palpites-section--light">
+    <div class="o-layout" style="text-align: center;">
+      <div class="u-col-12@s u-col-12@m u-col-12@l">
+        <header>
+          <h1 class="c-heading c-heading--home home-titulo mt40">
+            <span class="c-heading__title">Venha conhecer nosso projeto</span>
+            <span class="c-heading__description">
+              <p class="mt10 mb20">
+                Deixe a tarefa de analisar jogos com os nossos profissionais!</p>
+              <p class="mt10 mb20">
+                Foque em suas estratégias!
+              </p>
+              <p class="mt10 mb20">
+                100% Punter (100% Pré-Jogo)
+              </p>
+
+              <a class="c-btn c-btn--success c-btn--large c-footer__btn mt40">
+                <span class="c-btn__text">Eu quero!</span></a>
+            </span>
+          </h1>
+        </header>
+      </div>
+  </section>
+
+  <section id="historico">
+    <div class="o-layout" style="text-align: center;">
+      <div class="u-col-12@s u-col-12@m u-col-12@l">
+        <header>
+          <h1 class="c-heading c-heading--home home-titulo mt40">
+            <span class="c-heading__title black">Histórico dos meses</span>
+            <!-- <span class="c-heading__description">
                         <p class="mt10 mb20">
                             Deixe a tarefa de analisar jogos com os nossos profissionais!</p>
                         <p class="mt10 mb20">
@@ -200,149 +144,136 @@
                           <span class="c-btn__text">Eu quero!</span></a
                         >
                       </span> -->
-                </h1>
-              </header>
-              <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img class="d-block w-100" src=".../800x400?auto=yes&bg=777&fg=555&text=Primeiro Slide" alt="Primeiro Slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src=".../800x400?auto=yes&bg=666&fg=444&text=Segundo Slide" alt="Segundo Slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Terceiro Slide" alt="Terceiro Slide">
-                    </div>
-                  </div>
-                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Anterior</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Próximo</span>
-                  </a>
-                </div>
+          </h1>
+        </header>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src=".../800x400?auto=yes&bg=777&fg=555&text=Primeiro Slide"
+                alt="Primeiro Slide">
             </div>
-        </section>
-
-        <section  id="depoimentos" class="u-palpite--section">
-            <div class="o-layout o-layout--offset-top o-layout--offset-bottom u-bg__palpites-section--light" style="text-align: center;">
-              <!--left col-->
-              <div class="u-col-12@s u-col-12@m u-col-6@l">
-                  <style type="text/css">
-                    .home--titulo .c-heading__description p {
-                      font-size: inherit !important;
-                      line-height: inherit !important;
-                    }
-                  </style>
-                  <header>
-                    <h1 class="c-heading c-heading--home home-titulo mt40">
-                      <span class="c-heading__title">Provas sociais</span>
-                      <span class="c-heading__description">
-                        <p class="mt10 mb40">
-                            Veja todos os depoimentos de nossos assinantes!
-                        </p>
-                        <p class="mt10 mb40">
-                            A maioria de nossos assinates já tem lucro no 1o DIA!
-                        </p>
-                        <a class="c-btn c-btn--success c-btn--large c-footer__btn u-show@l u-hide@s">
-                            <span class="c-btn__text">Eu quero!</span></a
-                          >
-                      </span>
-                    </h1>
-                  </header>
-                </div>
-                <!--right col-->
-                <div class="u-col-12@s u-col-12@m u-col-5@l u-pull-1@l">
-                    <div id="carouselExampleFade" class="carousel slide carousel-fade mt40 " data-ride="carousel" style="width: 300px;     margin: 0 auto;">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                              <img width="100%" src="img/depoimento1.png"/>
-                          </div>
-                          <div class="carousel-item">
-                              <img width="100%" src="img/depoimento2.png"/>
-                          </div>
-                          <div class="carousel-item">
-                              <img width="100%" src="img/depoimento3.jpg"/>
-                          </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Anterior</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Próximo</span>
-                        </a>
-                      </div>
-
-                      <a class="c-btn c-btn--success c-btn--large c-footer__btn u-hide@l u-show@s mt40">
-                          <span class="c-btn__text">Eu quero!</span></a
-                        >
-                </div>
-              </div>
-          </section>
-          <section id="planos" class="u-home--section">
-            <div class="o-layout  o-layout--offset-top o-layout--offset-bottom ">
-                <div class="u-col-12@s u-col-12@m u-col-8@l">
-                    <style type="text/css">
-                      .home--titulo .c-heading__description p {
-                        font-size: inherit !important;
-                        line-height: inherit !important;
-                      }
-                    </style>
-                    <header>
-                      <h1 class="c-heading c-heading--home home-titulo">
-                        <span class="c-heading__title">PLANO VENCEDOR</span>
-                        <span class="c-heading__description">
-                          <p class="mt10 mb40">
-                            <ul>
-                              <li><h3>Mais de 50 palpites semanais</h3></li>
-                            </ul>
-                           <div>Incluindo Bilhetes especiais!</div>
-                           <div>Múltiplas/Casadinhas com ODD acima de 2.0</div>
-                          </p>
-                          <p class="mt10 mb40">
-                              <ul>
-                                  <li><h3>Dicionário do apostador</h3></li>
-                                </ul>
-                          </p>
-                          <p class="mt10 mb40">
-                              <ul>
-                                  <li><h3>Indicação dos melhores:</h3></li>
-                                </ul>
-                               <div>Sites de apostas</div>
-                              <div>Sites de análises de Pré-Jogo</div>
-                            <div>Apps com resultados AO VIVO</div>
-                          </p>
-                          
-                        </span>
-                      </h1>
-                    </header>
-                  </div>
-                  <!--right col-->
-                  <div class="u-col-12@s u-col-12@m u-col-3@l u-pull-1@l u-hide@s u-hide@m u-show@l">
-                    <img src="img/results.png" style="width: 80%;" />
-                  </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src=".../800x400?auto=yes&bg=666&fg=444&text=Segundo Slide"
+                alt="Segundo Slide">
             </div>
-          </section>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="vendor/bootstrap/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+            <div class="carousel-item">
+              <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Terceiro Slide"
+                alt="Terceiro Slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+          </a>
+        </div>
+      </div>
+  </section>
+
+  <section id="depoimentos" class="u-palpite--section">
+    <div class="o-layout o-layout--offset-top o-layout--offset-bottom u-bg__palpites-section--light"
+      style="text-align: center;">
+      <div class="u-col-12@s u-col-12@m u-col-6@l">
+        <header>
+          <h1 class="c-heading c-heading--home home-titulo mt40">
+            <span class="c-heading__title">Provas sociais</span>
+            <span class="c-heading__description">
+              <p class="mt10 mb40">
+                Veja todos os depoimentos de nossos assinantes!
+              </p>
+              <p class="mt10 mb40">
+                A maioria de nossos assinates já tem lucro no 1o DIA!
+              </p>
+              <a class="c-btn c-btn--success c-btn--large c-footer__btn u-show@l u-hide@s">
+                <span class="c-btn__text">Eu quero!</span></a>
+            </span>
+          </h1>
+        </header>
+      </div>
+      <div class="u-col-12@s u-col-12@m u-col-5@l u-pull-1@l">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade mt40 " data-ride="carousel"
+          style="width: 300px;     margin: 0 auto;">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img width="100%" src="img/depoimento1.png" />
+            </div>
+            <div class="carousel-item">
+              <img width="100%" src="img/depoimento2.png" />
+            </div>
+            <div class="carousel-item">
+              <img width="100%" src="img/depoimento3.jpg" />
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+          </a>
+        </div>
+
+        <a class="c-btn c-btn--success c-btn--large c-footer__btn u-hide@l u-show@s mt40">
+          <span class="c-btn__text">Eu quero!</span></a>
+      </div>
+    </div>
+  </section>
+  <section id="planos" class="u-home--section">
+    <div class="o-layout  o-layout--offset-top o-layout--offset-bottom ">
+      <div class="u-col-12@s u-col-12@m u-col-8@l">
+        <header>
+          <h1 class="c-heading c-heading--home home-titulo">
+            <span class="c-heading__title">PLANO VENCEDOR</span>
+            <span class="c-heading__description">
+              <p class="mt10 mb40">
+                <ul>
+                  <li>
+                    <h3>Mais de 50 palpites semanais</h3>
+                  </li>
+                </ul>
+                <div>Incluindo Bilhetes especiais!</div>
+                <div>Múltiplas/Casadinhas com ODD acima de 2.0</div>
+              </p>
+              <p class="mt10 mb40">
+                <ul>
+                  <li>
+                    <h3>Dicionário do apostador</h3>
+                  </li>
+                </ul>
+              </p>
+              <p class="mt10 mb40">
+                <ul>
+                  <li>
+                    <h3>Indicação dos melhores:</h3>
+                  </li>
+                </ul>
+                <div>Sites de apostas</div>
+                <div>Sites de análises de Pré-Jogo</div>
+                <div>Apps com resultados AO VIVO</div>
+              </p>
+
+            </span>
+          </h1>
+        </header>
+      </div>
+      <div class="u-col-12@s u-col-12@m u-col-3@l u-pull-1@l u-hide@s u-hide@m u-show@l">
+        <img src="img/results.png" style="width: 80%;" />
+      </div>
+    </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

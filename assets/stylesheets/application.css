@@ -26459,3 +26459,9 @@ a.tp-wrap + .tooltip .tooltip-inner {
 .black {
   color: #000;
 }
+
+/* custom */
+.home--titulo .c-heading__description p {
+  font-size: inherit !important;
+  line-height: inherit !important;
+}
