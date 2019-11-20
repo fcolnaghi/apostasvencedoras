@@ -1,0 +1,29 @@
+{
+  "data": "25/09/2019",
+  "jogos": [
+    {
+      "titulo": "Itália",
+      "subtitulo": "14h - Roma x Atalanta",
+      "resultado": "Roma ou Empate",
+      "odd": "1.36"
+    },
+    {
+      "titulo": "Espanha",
+      "subtitulo": "14h - Leganes x Ath. Bilbao",
+      "resultado": "Bilbao Empate Anula",
+      "odd": "1.83"
+    },
+    {
+      "titulo": "Portugal",
+      "subtitulo": "15h - Benfica x Vitoria SC",
+      "resultado": "Benfica Mais de 1.5 gols",
+      "odd": "1.44"
+    },
+    {
+      "titulo": "Austria",
+      "subtitulo": "15h45 - Rapid Vienna x Salzburg",
+      "resultado": "Mais de 1.5 gols HT",
+      "odd": "1.30"
+    }
+  ]
+}
