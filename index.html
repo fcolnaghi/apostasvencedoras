@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, height=1000, user-scalable=no" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/fonts/chainlink/stylesheet.css" type="text/css" charset="utf-8" />
@@ -17,10 +18,10 @@
   <section id="slide-1" class="bg-green">
     <div class="container">
       <div class="row">
-        <div class="col-6 col-sm-6 col-md-8">
+        <div class="col-12 col-sm-12 col-md-8">
           <a href="/"><img src="assets/images/logo-1.png" height="120px" /></a>
         </div>
-        <div class="col-6 col-sm-6 col-md-4 text-center">
+        <div class="d-none d-sm-block col-sm-12 col-md-4 text-center">
           <button class="btn btn-lg btn-success">Entrar</button>
         </div>
       </div>
@@ -58,7 +59,7 @@
   <section id="slide-2" class="bg-gray">
     <div class="container">
       <div class="row">
-        <div class="col-6 col-sm-6 col-md-8">
+        <div class="d-none d-sm-block col-sm-12 col-md-12">
           <a href="/"><img src="assets/images/logo-1.png" height="120px" /></a>
         </div>
       </div>
@@ -141,9 +142,40 @@
           <h1>Histórico dos meses</h1>
         </div>
       </div>
-  
+    
       <div class="row mt-5 bg-lightgray" id="historico">
-        oi
+        <div class="col-12 col-sm-12 col-md-4 p-2">
+          <div class="controls my-3">
+            <a href="javascript:left();">&lt;</a> <span id="periodo_atual"></span> <a href="javascript:right();">&gt;</a>
+          </div>
+          <div class="block">
+            <div class="item">
+              <div class="details">
+                <p><span id="analise_analises"></span> análises</p>
+                <p><span id="analise_greens"></span> greens</p>
+                <p><span id="analise_reds"></span> reds</p>
+              </div>
+              <div class="rounded-circle">
+                <p>Análise<br><span id="analise_taxa_acerto"></span><br>de acerto</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="details">
+                <p><span id="cupons_cupons"></span> cupons</p>
+                <p><span id="cupons_greens"></span> greens</p>
+                <p><span id="cupons_reds"></span> reds</p>
+              </div>
+              <div class="rounded-circle">
+                <p>Cupom do dia<br><span id="cupons_lucro"></span><br>de lucro</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-8 texto">
+          <p><small><small>NOSSOS <strong>RESULTADOS TRANSFORMAM!</strong></small></small></p>
+          <p class="destaque"><strong>RESULTADOS<br>MENSAIS</strong> DE NOSSAS<br>ANÁLISES DE <strong>FUTEBOL</strong></p>
+          <hr>
+        </div>
       </div>
     </div>
   </section>
@@ -159,8 +191,27 @@
         </div>
       </div>
   
-      <div class="row mt-5 bg-lightgray" id="historico">
-        oi
+      <div class="row mt-5 p-5 bg-lightgray" id="historico">
+        <div class="col-12 col-sm-12 col-md-8 texto">
+          <p><small><small>EM 1 DIA MUITOS DELES <strong>JÁ TEM UM GRANDE RETORNO!</strong></small></small></p>
+          <p class="destaque">VEJA TODOS OS<br><strong>DEPOIMENTOS</strong> DOS<br>NOSSOS ASSINANTES!</p>
+          <hr>
+        </div>
+        <div class="col-12 col-sm-12 col-md-4 p-2">
+          <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-interval="5000">
+                <img src="assets/images/depoimento1.png" class="d-block w-75 shadow mb-5" alt="Depoimento 1">
+              </div>
+              <div class="carousel-item" data-interval="5000">
+                <img src="assets/images/depoimento2.png" class="d-block w-75 shadow mb-5" alt="Depoimento 2">
+              </div>
+              <div class="carousel-item" data-interval="5000">
+                <img src="assets/images/depoimento3.jpg" class="d-block w-75 shadow mb-5" alt="Depoimento 3">
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -203,10 +254,10 @@
   <section id="slide-7" class="bg-gray">
     <div class="container">
       <div class="row">
-        <div class="col-6 col-sm-6 col-md-2">
+        <div class="d-none d-sm-block  col-sm-6 col-md-2">
           <a href="/"><img src="assets/images/logo-1.png" height="120px" /></a>
         </div>
-        <div class="col-6 col-sm-6 col-md-10 text-center">
+        <div class="col-sm-6 col-md-10 text-center">
           <h1 class="text-yellow">PLANO VENCEDOR</h1>
         </div>
       </div>
@@ -237,10 +288,10 @@
   <section id="slide-8" class="bg-gray">
     <div class="container">
       <div class="row">
-        <div class="col-6 col-sm-6 col-md-2">
+        <div class="d-none d-sm-block col-sm-6 col-md-2">
           <a href="/"><img src="assets/images/logo-1.png" height="120px" /></a>
         </div>
-        <div class="col-6 col-sm-6 col-md-10 text-center">
+        <div class="col-sm-6 col-md-10 text-center">
           <h1 class="text-yellow">PLANO PROMOCIONAL</h1>
         </div>
       </div>
@@ -275,54 +326,7 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
 
-  <script>
-    const container = jogo => {
-      let col = document.createElement('div');
-      col.className = 'col-md-6';
-
-      let p = document.createElement('p');
-      p.innerHTML = jogo.titulo;
-
-      let spanSubtitulo = document.createElement('span');
-      spanSubtitulo.innerHTML = jogo.subtitulo;
-      spanSubtitulo.className = 'nutror-span-subtitulo';
-      let spanResultado = document.createElement('span');
-      spanResultado.innerHTML = `${jogo.resultado}<br>Odd ${jogo.odd}`;
-      spanResultado.className = 'nutror-span-resultado';
-
-      col.append(p);
-      col.append(spanSubtitulo);
-      col.append(spanResultado);
-
-      return col;
-    }
-
-    try {
-      fetch("data.json")
-        .then(response => {
-          if (!response.ok) {
-            throw new Error("HTTP error " + response.status);
-          }
-          return response.json();
-        })
-        .then(json => {
-          const { data, jogos } = json;
-          document.getElementById('nutror_data').innerHTML = data;
-          document.getElementById('nutror_bilhete_especial_data').innerHTML = data;
-
-          jogos.forEach(jogo => {
-            const col = container(jogo);
-            document.getElementById('nutror_jogos').appendChild(col);
-          });
-        })
-        .catch(function () {
-          this.dataError = true;
-        });
-    } catch (erro) {
-      console.error(err);
-    }
-  </script>
+  <script src="assets/scripts/application.js" async defer></script>
 
 </body>
-
 </html>
