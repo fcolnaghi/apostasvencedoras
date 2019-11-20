@@ -4,7 +4,7 @@ body {
 }
 
 section {
-  padding: 40px 0px;
+  padding: 60px 0px;
 }
 
 h1 {
@@ -24,9 +24,21 @@ p {
   line-height: 1.5rem;
 }
 
+p.destaque {
+  font-size: 3.5rem;
+}
+
+p.mega-destaque {
+  font-size: 5rem;
+}
+
 /* background */
 .bg-green {
   background-color: #5ebf8c;
+}
+
+.bg-lightgray {
+  background-color: #F1F2F4;
 }
 
 .bg-gray {
@@ -99,6 +111,11 @@ p {
   color: #000000;
 }
 
+/* historico */
+#historico {
+  padding: 20px 40px;
+}
+
 /* anchor */
 .pull_down {
   position: absolute;
@@ -155,4 +172,34 @@ p {
 
 .pull_down__trigger--top svg {
   margin-top: 20px;
+}
+
+/* strikethrough */
+del {
+  position: relative;
+  text-decoration:none;
+}
+del:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  width: 104%;
+  right: 0;
+  border-top: 5px solid #5ebf8c;
+
+  -webkit-transform:rotate(-5deg);
+  -moz-transform:rotate(-5deg);
+  -ms-transform:rotate(-5deg);
+  -o-transform:rotate(-5deg);
+  transform:rotate(-5deg);
+}
+
+/* custom bootstrap */
+.btn {
+  font-style: italic;
+}
+
+.btn-lg {
+  padding: 1.5rem 4rem;
 }
