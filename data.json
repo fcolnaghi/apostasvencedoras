@@ -25,5 +25,52 @@
       "resultado": "Mais de 1.5 gols HT",
       "odd": "1.30"
     }
+  ],
+  "historico": [
+    {
+      "periodo": "05/2019",
+      "analise": {
+        "taxa_acerto": "99,95%",
+        "analises": "555",
+        "greens": "555",
+        "reds": "55"
+      },
+      "cupons": {
+        "lucro": "358,25",
+        "cupons": "31",
+        "greens": "19",
+        "reds": "12"
+      }
+    },
+    {
+      "periodo": "06/2019",
+      "analise": {
+        "taxa_acerto": "99,96%",
+        "analises": "666",
+        "greens": "666",
+        "reds": "66"
+      },
+      "cupons": {
+        "lucro": "358,25",
+        "cupons": "31",
+        "greens": "19",
+        "reds": "12"
+      }
+    },
+    {
+      "periodo": "07/2019",
+      "analise": {
+        "taxa_acerto": "75,97%",
+        "analises": "777",
+        "greens": "777",
+        "reds": "77"
+      },
+      "cupons": {
+        "lucro": "358,25",
+        "cupons": "31",
+        "greens": "19",
+        "reds": "12"
+      }
+    }
   ]
 }

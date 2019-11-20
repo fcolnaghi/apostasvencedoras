@@ -26,10 +26,12 @@ p {
 
 p.destaque {
   font-size: 3.5rem;
+  line-height: 100%;
 }
 
 p.mega-destaque {
   font-size: 5rem;
+  line-height: 100%;
 }
 
 /* background */
@@ -80,7 +82,7 @@ p.mega-destaque {
 }
 
 #nutror_jogos {
-  font-family: Arial;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
 }
@@ -113,7 +115,70 @@ p.mega-destaque {
 
 /* historico */
 #historico {
-  padding: 20px 40px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+}
+
+.block {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.rounded-circle {
+  background: rgb(24,78,65);
+  background: linear-gradient(45deg, rgba(24,78,65,1) 0%, rgba(95,148,138,1) 100%);
+  border: 3px solid #ffffff;
+  color: white;
+  height: 140px;
+  font-weight: bold;
+  width: 140px;
+  display: table;
+}
+
+.rounded-circle p {
+  vertical-align: middle;
+  display: table-cell;
+  color: #ffffff;
+  font-size: 0.8rem;
+}
+
+.rounded-circle p span {
+  font-size: 1.2rem;
+}
+
+#historico .controls {
+  text-align: center;
+}
+
+#historico .controls a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#historico .details {
+  background-color: #ffffff;
+  padding: 20px;
+  border-top-right-radius: 45%;
+  border-bottom-right-radius: 45%;
+  height: 100px;
+}
+
+#historico .details p {
+  font-size: 1rem;
+  line-height: 50%;
+  text-align: left;
+  color: #7B947E;
+  font-weight: bold;
+}
+
+#historico .texto {
+  margin-top: 100px;
+}
+
+#historico hr {
+  max-width: 40%;
+  margin: 0px;
+  border: 1px solid #61BAA4;
 }
 
 /* anchor */
