@@ -286,7 +286,6 @@
       let spanSubtitulo = document.createElement('span');
       spanSubtitulo.innerHTML = jogo.subtitulo;
       spanSubtitulo.className = 'nutror-span-subtitulo';
-
       let spanResultado = document.createElement('span');
       spanResultado.innerHTML = `${jogo.resultado}<br>Odd ${jogo.odd}`;
       spanResultado.className = 'nutror-span-resultado';
@@ -308,7 +307,6 @@
         })
         .then(json => {
           const { data, jogos } = json;
-
           document.getElementById('nutror_data').innerHTML = data;
           document.getElementById('nutror_bilhete_especial_data').innerHTML = data;
 
