@@ -30,7 +30,7 @@
     {
       "periodo": "05/2019",
       "analise": {
-        "taxa_acerto": "99,95%",
+        "taxa_acerto": "23,95%",
         "analises": "555",
         "greens": "555",
         "reds": "55"
@@ -70,7 +70,24 @@
         "cupons": "31",
         "greens": "19",
         "reds": "12"
-      }
+      },
+      
+    },
+    {
+      "periodo": "08/2019",
+      "analise": {
+        "taxa_acerto": "99,97%",
+        "analises": "100",
+        "greens": "75",
+        "reds": "25"
+      },
+      "cupons": {
+        "lucro": "358,25",
+        "cupons": "31",
+        "greens": "19",
+        "reds": "12"
+      },
+      
     }
   ]
 }
