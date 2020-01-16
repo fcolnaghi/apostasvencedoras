@@ -15,7 +15,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  line-height: 2rem;  
+  line-height: 2rem;
 }
 
 p {
@@ -40,7 +40,7 @@ p.mega-destaque {
 }
 
 .bg-lightgray {
-  background-color: #F1F2F4;
+  background-color: #f1f2f4;
 }
 
 .bg-gray {
@@ -82,7 +82,7 @@ p.mega-destaque {
 }
 
 #nutror_jogos {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
 }
@@ -114,10 +114,9 @@ p.mega-destaque {
 }
 
 /* historico */
-#historico {
-  font-family: 'Roboto', sans-serif;
+/* #historico {
   font-style: normal;
-}
+} */
 
 .block {
   text-align: center;
@@ -125,25 +124,65 @@ p.mega-destaque {
 }
 
 .rounded-circle {
-  background: rgb(24,78,65);
-  background: linear-gradient(45deg, rgba(24,78,65,1) 0%, rgba(95,148,138,1) 100%);
+  width: 100%;
+  /* background: rgb(24, 78, 65);
+  background: linear-gradient(
+    45deg,
+    rgba(24, 78, 65, 1) 0%,
+    rgba(95, 148, 138, 1) 100%
+  );
   border: 3px solid #ffffff;
   color: white;
   height: 140px;
   font-weight: bold;
   width: 140px;
-  display: table;
+  display: table; */
+  /* position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 150px;
+  height: 150px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 100px;
+  background-image: linear-gradient(45deg, #20423c, #01715b); */
+}
+
+#historico .controls a {
+  color: #000000;
 }
 
 .rounded-circle p {
-  vertical-align: middle;
+  color: #ffffff;
+  margin-top: 10px;
+  /* vertical-align: middle;
   display: table-cell;
   color: #ffffff;
-  font-size: 0.8rem;
+  font-size: 0.8rem; */
 }
 
 .rounded-circle p span {
   font-size: 1.2rem;
+}
+
+#historico .item {
+  background: black;
+  padding: 2px;
+  margin: 10px;
 }
 
 #historico .controls {
@@ -158,27 +197,25 @@ p.mega-destaque {
 #historico .details {
   background-color: #ffffff;
   padding: 20px;
-  border-top-right-radius: 45%;
-  border-bottom-right-radius: 45%;
-  height: 100px;
 }
 
 #historico .details p {
   font-size: 1rem;
   line-height: 50%;
   text-align: left;
-  color: #7B947E;
+  color: #7b947e;
   font-weight: bold;
 }
 
 #historico .texto {
+  text-align: center;
   margin: 100px 0px;
 }
 
 #historico hr {
   max-width: 40%;
   margin: 0px;
-  border: 1px solid #61BAA4;
+  border: 1px solid #61baa4;
 }
 
 /* anchor */
@@ -242,7 +279,7 @@ p.mega-destaque {
 /* strikethrough */
 del {
   position: relative;
-  text-decoration:none;
+  text-decoration: none;
 }
 del:after {
   position: absolute;
@@ -253,11 +290,11 @@ del:after {
   right: 0;
   border-top: 5px solid #5ebf8c;
 
-  -webkit-transform:rotate(-5deg);
-  -moz-transform:rotate(-5deg);
-  -ms-transform:rotate(-5deg);
-  -o-transform:rotate(-5deg);
-  transform:rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  transform: rotate(-5deg);
 }
 
 /* custom bootstrap */
@@ -278,7 +315,7 @@ del:after {
   h1 {
     font-size: 3.5rem;
   }
-  
+
   h2 {
     font-size: 2rem;
   }
@@ -286,7 +323,7 @@ del:after {
   p.destaque {
     font-size: 3.5rem;
   }
-  
+
   p.mega-destaque {
     font-size: 5rem;
   }
